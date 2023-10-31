@@ -45,3 +45,14 @@ h2 {
     letter-spacing: 7px;
     text-transform: capitalize;
 }
+
+/* moje */
+#mecze {
+    display: flex;
+    flex-direction: row;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
