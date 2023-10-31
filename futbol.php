@@ -43,7 +43,7 @@
                     $q2 = "SELECT imie,nazwisko FROM zawodnik WHERE pozycja_id=$numer";
                     $result1 = mysqli_query($conn, $q2);
                     foreach ($result1 as $row) {
-                        echo "<li>" . $row['imie'] . '&nbsp' . $row['nazwisko'] . "</li>";
+                        echo "<li><p>" . $row['imie'] . '&nbsp' . $row['nazwisko'] . "</p></li>";
                     }
                 }
                 ?>
